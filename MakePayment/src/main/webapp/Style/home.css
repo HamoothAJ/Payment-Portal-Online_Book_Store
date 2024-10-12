@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.cdnfonts.com/css/bonding');
+
+          
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: Courier New, monospace;
+    color: black;
+    margin: 1px 1px 1px 1px;
+    
+}
+
+span{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+
+.container{
+	font-size:50px;
+    width: 550px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    background-color: rgba(154, 163, 165, 0.5);
+    border-radius: 30px;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Bonding';
+    
+}

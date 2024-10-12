@@ -1,0 +1,165 @@
+@charset "ISO-8859-1";
+
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.banner{
+    width: 100%;
+    height: 160vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.87;
+    padding: 10px;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.button{
+	background-color: #fff;
+	border: none;
+	color: black;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 6px 1px 0 6px;
+	cursor: pointer;
+	
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: #eae6e6;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+/*body*/
+
+.eventName{
+  font-size: 20px;
+}
+
+.eventImage{
+  float: left;
+}
+
+.eventContent{
+  float: right;
+}
+
+.reviewContent{
+  background: pink;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 30px;
+  height: 100px;
+  align-content: center;
+}
+
+.reviewContent::after{
+   content: " ";
+  clear: both;
+  display: table;
+}
+
+/*footer*/
+.footer_heading{
+	font-size: 30px;
+    font-family: Courier New, monospace;
+    margin: 50px;
+}
+
+.social-media {
+    font-size: 25px;
+    font-family: Apple Chancery, cursive;
+}
+
+.fa{
+    padding: 10px;
+   	font-size: 30px;
+   	width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 50%;
+    color: white;
+}
+
+.fa:hover{
+	opacity: 0.7;
+}
+
+.footer{
+	background-color: #E6DDD6;
+	text-align: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 50px;
+	
+}
+
+#social-media .fa{       
+    color: black;
+}
+
+.social-gallary img{
+	width: 300px;
+	height: 200px	
+}
+
+.contactinfo{
+	margin-top: 100px;
+	font-family: Courier New, monospace;
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+.copyright{
+	font-family: Courier New, monospace;
+	font-size: 10px;
+	
+	
+}

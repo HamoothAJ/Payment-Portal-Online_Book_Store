@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+body{
+	margin: auto;
+	padding:0px;
+	
+	color:rgb(225, 255, 255);
+	background-size: cover;
+	background-color:rgb(192, 192, 192);
+	background-repeat:no-repeat !important;
+	background:url(../images/floral2.jpg);
+	background-size: cover;
+	
+}
+
+h2{
+	çolor:white;
+}
+show{
+	
+	background-color: rgb(128, 255, 255);
+	font-size: 50px;
+}
+table{
+	font-size: 15px;
+}
+
+.pay{
+	background-color:rgb(176, 216, 255) ;
+	color :rgb(0, 119, 238);
+	width: 50%;
+}
+
+form{
+	background-color: #00008B;
+	width: 50%;
+	height : 50%;
+	margin-bottom: 15px;
+}
+
+button{
+	background-color:light blue; 
+	
+	border-radius:40px;  
+	height:40px; 
+	margin-left:50px;
+}
